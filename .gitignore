@@ -1,1 +1,18 @@
-venv/\n*.db\n__pycache__/\n*.log\n*.pyc\n
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Backup and temp files
+*.csv~
+*~
+.~*
+
+# Virtual environment (inside scrapping)
+scrapping/selenium/
+
+# Dataset and CSV files
+scrapping/datasets/
+scrapping/*.csv
+
+# Database files
+*.db
